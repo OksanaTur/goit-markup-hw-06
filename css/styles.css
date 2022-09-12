@@ -517,9 +517,9 @@ img{
 /*Footer*/
 .footer {
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
     background-color: var(--bgd-dark-color);
+    padding-left: 135px;
+    padding-right: 135px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -568,7 +568,6 @@ img{
 }
 .container-join{
     margin-left: 70px;
-    
 }
 .join-title{
     font-family: 'Roboto', sans-serif;
@@ -822,20 +821,19 @@ img{
 
 .footer-area-subscribe{
     display: flex;
+    align-items: baseline;
     }
 
 
 .form-footer-modal{
     display: flex;
-    align-items: baseline;
-
+    align-items: center;
 }
 
 .footer-subscribe-wrapper{
     position: relative;
-    display: flex;
-    align-items: baseline;
-    margin-left: 12px;
+    display: inline-flex;
+    align-items: center;
 }
 
 .form-footer-subscribe{
@@ -891,6 +889,7 @@ img{
     align-items: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+    margin-left: 12px;
     transition: background-color var(--transition-dur-and-func);
 }
 
