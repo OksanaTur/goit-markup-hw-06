@@ -516,10 +516,7 @@ img{
 
 /*Footer*/
 .footer {
-    display: flex;
     background-color: var(--bgd-dark-color);
-    padding-left: 135px;
-    padding-right: 135px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -564,7 +561,6 @@ img{
 .footer-container{
     display: flex;
     align-items: baseline;
-    
 }
 .container-join{
     margin-left: 70px;
@@ -634,6 +630,12 @@ img{
     width: 528px;
     height: 581px;
     background-color: var(--bgd-light-color);
+    border-radius: 4px;
+}
+
+.modal:hover,
+.modal:focus{
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .modal-close-btn{
@@ -669,6 +671,10 @@ img{
     margin-bottom: 12px;
 }
 
+.modal-form-field{
+    margin-bottom: 10px;
+}
+
 .modal-form-field-desc{
     display: block;
     font-weight: 400;
@@ -678,6 +684,7 @@ img{
     color: var(--secondary-font-color);
     margin-bottom: 4px;
 }
+
 .modal-form{
     display: flex;
     flex-direction: column;
@@ -703,9 +710,6 @@ img{
     fill: var(--accent-color);
 }
 
-.modal-form-field{
-    margin-bottom: 10px;
-}
 
 .modal-form-input-wrapper{
     position: relative;
@@ -780,7 +784,6 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -796,9 +799,7 @@ img{
 }
 
 .modal-form-submit{
-    width: 200px;
-    height: 50px;
-    margin-bottom: 40px;
+    min-width: 200px;
     padding: 10px 52px;
     background-color: var(--bgd-secondary-color);
     color: var(--main-font-color);
@@ -820,8 +821,7 @@ img{
 }
 
 .footer-area-subscribe{
-    display: flex;
-    align-items: baseline;
+    margin-left: auto;;
     }
 
 
@@ -830,7 +830,7 @@ img{
     align-items: center;
 }
 
-.footer-subscribe-wrapper{
+.footer-subscribe-wrapper {
     position: relative;
     display: inline-flex;
     align-items: center;
